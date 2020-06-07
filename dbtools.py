@@ -18,10 +18,10 @@ def find(sql):
 
     return res
 
-sql = "select * from t_class where id = 2 "
-a = find(sql)
-print(a)
-print(len(a))
+# sql = "select * from t_class where id = 2 "
+# a = find(sql)
+# print(a)
+# print(len(a))
 
 
 def commit(sql):
@@ -47,6 +47,6 @@ def commit(sql):
 sql = "insert into t_class (id,classname,teacher) values (5,'就业班','王莉')"
 
 # delete 
-sql = "delete from t_class where id = 5"
-commit(sql)
+# sql = "delete from t_class where id = 5"
+# commit(sql)
 
