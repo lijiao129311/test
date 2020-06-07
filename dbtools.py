@@ -1,6 +1,6 @@
 import pymysql
 
-def find(sql):
+def chaxun(sql):
     """
     查询mysql数据库 只能select  不要delete、update、insert
     """
@@ -19,7 +19,7 @@ def find(sql):
     return res
 
 # sql = "select * from t_class where id = 2 "
-# a = find(sql)
+# a = chaxun(sql)
 # print(a)
 # print(len(a))
 
